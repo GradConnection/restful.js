@@ -1,10 +1,10 @@
 import assign from 'object-assign';
-import configurable from 'util/configurable';
-import collection from 'model/collection';
-import member from 'model/member';
-import resource from 'model/resource';
+import configurable from './util/configurable';
+import collection from './model/collection';
+import member from './model/member';
+import resource from './model/resource';
 import axios from 'axios';
-import http from 'service/http';
+import http from './service/http';
 
 export default function restful(baseUrl, port) {
     var config = {

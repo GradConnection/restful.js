@@ -1,4 +1,4 @@
-import response from 'model/response';
+import response from '../model/response';
 
 export default function(serverResponse, memberFactory) {
     return new Promise(function(resolve, reject) {

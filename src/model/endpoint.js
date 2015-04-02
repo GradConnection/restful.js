@@ -1,6 +1,6 @@
 import assign from 'object-assign';
-import configurable from 'util/configurable';
-import entity from 'model/entity';
+import configurable from '../util/configurable';
+import entity from './entity';
 
 export default function endpoint(url, parent) {
     var config = {

@@ -1,8 +1,8 @@
 import assign from 'object-assign';
-import collection from 'model/collection';
-import endpoint from 'model/endpoint';
-import responseBuilder from 'service/responseBuilder';
-import resource from 'model/resource';
+import collection from './collection';
+import endpoint from './endpoint';
+import responseBuilder from '../service/responseBuilder';
+import resource from './resource';
 
 export default function member(name, id, parent) {
     var refEndpoint = endpoint([parent.url(), name].join('/'), parent());
